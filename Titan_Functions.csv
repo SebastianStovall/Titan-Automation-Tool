@@ -1,0 +1,1998 @@
+Funct-name,Funct-desc
+ap,AP Accounts Payable
+ap.log,Log On/Off
+ap.maintenance,File Maintenance Menu
+ap.transaction,Transaction Processing Menu
+ap.report,Management Reporting Menu
+ap.inquiry,Inquiry Menu
+ap.system,System Management Menu
+ap.inquiry,Inquiry Menu
+vendor.inq,Vendor Profile Inquiry
+vendor.perf,Vendor Performance Inquiry
+ap.open.inq,Open Item Inquiry
+ap.open.detail,Open Item Detailed Inquiry
+ap.hist.inq,Closed Item Inquiry
+ap.hist.detail,Closed Item Detailed Inquiry
+ap.dist.inq,Distribution Inquiry
+ap.maintenance,File Maintenance Menu
+vendor.maint,A/P Vendor Maintenance
+vendor.audit,Vendor Audit Trail
+ap-terms.maint,Terms Maintenance
+bank.maint,Bank Maintenance
+currency.maint,A/P Currency Maintenance
+fob.maint,A/P FOB Maintenance
+ap-via.maint,A/P Ship VIA Maintenance
+buyer.maint,A/P Employee Maintenance
+ap.ctrl.maint,Control-File Maintenance
+ap.audits,Audit Trails (All Others)
+vendor.list,A/P Vendor List
+vendor.alpha,Vendor Alpha List
+ap-terms.list,Terms List
+bank.list,Bank List
+currency.list,A/P Currency List
+fob.list,A/P FOB List
+ap-via.list,A/P Ship Via List
+buyer.list,A/P Employee List
+ap-state.list,A/P State List
+ap.ctrl.list,Control-File List
+vendor.short,Vendor Short Listing
+gl.maintenance,G/L File Maintenance Menu
+ap.report,Management Reporting Menu
+open.ap,Open A/P Report
+ap.aging,Aging Report
+ap.distr,Distribution Report
+purch.analysis,Purchase Analysis by Category
+vend.analysis,Vendor Performance Analysis
+missing.check,Missing Check Numbers Report
+ap.mgmt.summry,AP Management Summary
+form.alignment,Form Alignment
+vendor.label,Print Vendor Labels
+ap.history,History Report
+unrec,Unreconciled Receipts
+onholdr,Receipts On Hold Report
+p-card.cover,P-Card Receipt Coversheet
+ap.system,System Management Menu
+ap.stack.log,Stackable Log On/Off
+ap.interface,G/L Interface
+ap.distr.purge,Distribution Purge
+ap.open.purge,Open-Item Purge
+vendor.reset,Vendor Stats Reset
+incr.ap.prd,Increment Year/Period
+vendor.purge,Vendor Purge
+check.purge,Check Numbers Purge
+ap.hist.purge,History Purge
+ap.transaction,Transaction Processing Menu
+payable.entry,Payables Entry
+h/r.invoices,Hold/Release Invoices
+manual.cash,Manual Cash Disbursement
+non-ap.disb,Non-A/P Disbursement
+auto.process,Automatic Disbursement Procedure
+check.setup,Check Run Setup
+cashreq.create,Cash Requirements Creation
+cash.req,Cash Requirements Report
+cashreq.edit,Cash Requirements Edit
+auto.disb,Automatic Cash Disbursement
+1099.maint,Manual Form-1099 Adjustment
+receipt.recon,Receipt Reconciliation
+rcptinq,Voucher Inq / Trans Date Update
+auto.recrecon,Auto Voucher Reconciliation
+vouch.reg,Payables Voucher Register
+check.reg,Check Register
+form.alignment,Form Alignment
+checks,Print Checks
+cashed.checks,Cashed Checks Entry
+checks.audit,Checks Audit Trail
+print.1099,Print Form 1099
+export.1099,Export Form 1099
+cmemo.maint,Custom Memo Maintenance
+onhold.vouch,Onhold Vouchers
+ar,AR Accounts Receivable
+ar.log,Log On/Off
+ar.maintenance,File Maintenance Menu
+ar.transaction,Transaction Processing Menu
+ar.report,Management Reporting Menu
+ar.inquiry,Inquiry Menu
+ar.system,System Management Menu
+blank,:
+ar.inquiry,Inquiry Menu
+customer.inq,Customer Profile Inquiry
+perform.inq,Customer Performance Inquiry
+open.item.inq,Open Item Inquiry
+open.detailed,Open Item Detailed Inquiry
+history.inq,Closed Item Inquiry
+history.detail,Closed Item Detailed Inquiry
+payments.inq,Payments Journal Inquiry
+commiss.inq,Commission Journal Inquiry
+salesrep.inq,Sales Representative Inquiry
+sales.inquiry,Sales Journal Inquiry
+ar.dist.inq,Distribution Inquiry
+tax.auth.inq,Tax Authority Inquiry
+s_arcash,AR cash applied(for cash sessions)
+specinq,Invoice Search Inquiry PO#/PPS#
+ar-specinqh,Invoice Search Hist. by PO#/PP#
+D:cust.inq.2,D:Customer Inquiry - 2 line
+d.ar.inv.inql,D:A/R Invoice Inquiry
+d.ar.inq.zip,D:A/R Customer Inquiry by Zip(Non)
+d.ar.cust.inqi,D:Customer Inquiry by Zip (index)
+d.ar.cust.tel,D:Customer Inquiry by Phone (Non)
+d.ar.cust.phi,D:Customer Inquiry by Phone(Index)
+d.ar.inv.inqi,D:A/R Invoice Inquiry (Indexed)
+shipcinq,D:Ship to Inquiry by Customer
+shipsinq,D:Ship to Inquiry by Ship to
+tax-rate-br,Zipcode Tax Rate Browse
+ar.maintenance,File Maintenance Menu
+customer.maint,Customer Maintenance
+customer.audit,Customer Audit Trail
+ship-via.maint,Ship Via Maintenance
+terms.maint,Payment Terms Maintenance
+terr.maint,Territory Maintenance
+tax.maint,Tax Authority Maintenance
+type.maint,Customer-Type Maintenance
+state.maint,State Maintenance
+ar.ctrl.maint,Control-File Maintenance
+armemo.maint,Customer Shipping Maint. (Memo)
+ar-custpg,Customer AR's Prod Group Maint
+nexus-states,Nexus States Maintenance
+bank.cal.maint,Bank Calendar Maint
+customer.list,Customer List
+alpha.list,Alpha Customer List
+ship-via.list,Ship Via List
+terms.list,Payment Terms List
+terr.list,Territory List
+tax.list,Tax Authority List
+type.list,Customer-Type List
+state.list,State List
+ar.ctrl.list,Control-File List
+ar.audits,Audit Trails (All Others)
+ar-custpgl,Customer AR's Prod Group Listing
+gl.maintenance,G/L File Maintenance Menu
+ar.report,Management Reporting Menu
+ar.distr,Distribution Report
+customer.perf,Customer Performance Analysis
+salesrep.perf,Sales Rep Performance Analysis
+ar.mgmt.summry,Management Summary
+form.alignment,Form Alignment
+customer.label,Print Customer Labels
+ar.history,History Report
+sales.report,Sales Report
+ageing,Aging Report
+ar-custlist,Customer Name/Number List
+ar-custin,Customer Information Short
+custclas,Customer Classification
+commrpt,Sales Commission Paid Report
+runview,View Report Output From a File
+sales-state,Sales by State
+rates.maint,Commission Rates Maintenance
+salesrep.maint,Sales Rep Commission Maintenance
+comm.maint,Commission Maintenance
+custslr,Multiple Sales Rep Maintenance
+slsrep.maint,Sales Rep Maintenance
+commiss.maint,Commission Master Maintenance
+ar-mrkt,Marketing Customer Maintenance
+sbu-maint,Customer SBU Maintenance
+country-maint,Consuming End Country Maintenance
+agency,Agency Maintenance
+commrefm,Commission Detail Type Maintenance
+ar-mngr-maint,AR Manager Maintenance
+nexus-states,Nexus States Maintenance
+rates.list,Commission Rates List
+salesrep.list,Sales Rep Commission List
+comm.list,Commission List
+fcrpt,Forecast Report
+slsrep.list,Sales Rep List
+cust.comm.lst,Customer Commission Listing
+blank6,:
+blank6,:
+country-list,Consuming End Country List
+agencylst,Agency Listing
+ar.system,System Management Menu
+ar.stack.log,Stackable Log On/Off
+ar.interface,G/L Interface
+ar.distr.purge,Distribution Purge
+ar.open.purge,Open-Item Purge
+customer.reset,Customer Stats Reset
+salesrep.reset,Sales Representative Stats Reset
+incr.ar.prd,Increment Year/Period
+customer.purge,Customer Purge
+ar.hist.purge,History Purge
+sales.purge,Sales Report Purge
+payments.purge,Payments Report Purge
+arpaymethod,Maintenance for Payment Method
+arbankname,Maintenance for Bank Name
+fix-open-item,Fix AR Open Items
+ar.transaction,Transaction Processing Menu
+sales.entry,Sales and Memo Entry
+payments.entry,Payments Entry
+pay.sheet,Payment Application Worksheet
+dated.maint,Post-Dated Checks Maintenance
+dated.audit,Post-Dated Checks Audit Trail
+dated.list,Post-Dated Checks List
+auto.cash,EDI 820 Cash Import
+hold-ar,Customers with No Activity
+cc-osc-credit,Credit Card OSC Credit
+sales.jrnl,Sales Journal
+payments.jrnl,Payments Journal
+comm.jrnl,Commission Journal
+finance.run,Finance Charge Run
+form.alignment,Form Alignment
+statements,Customer Statements
+payment.report,Payments Report
+auto.bill,Automated Billing
+lblprt,Bar Code Print Function
+bccustitemver,Barcode Compare Item - Cust Item
+move-labels,Packaging Labels from Move Tags
+blank,:
+bb.upc,Blockbuster UPC Label (4X6)
+3x4upclbl,Generic 3 x 4 UPC Label
+conti-pack,Continental Pack Label (3x4)
+bill-funct,Billing Functions
+invline.maint,Invoice Line Commission Maint.
+ablist,Auto Billing Processing Code List
+abwarn,Auto Billing Warning Maintenance
+custab,Auto Billing Customer Set-Up
+hndl.insrn.mnt,Handling & Insurance Maint
+mx-adden-maint,Mexico Addendum Maintenance
+bom,BOM Bill of Materials and Routing
+mfg.log,MFG Log On/Off
+bom.maintenanc,File Maintenance
+bom.report,Management Reporting Menu
+bom.inquiry,Inquiry Menu
+bom.inquiry,Inquiry Menu
+single.comp.in,Single-level Component Inquiry
+bomrevinq,BOM/Routing Inquiry
+oper.inq,Operations Inquiry
+wk.inquiry,Work Center Inquiry
+opt.bill.inq,Options Bill Inquiry
+std.cost.inq,Std Cost Rollup Simulation Inquiry
+where.used,Single Where Used BOM Inquiry
+multi.bom.inq,:
+machine.inq,Machine Inquiry
+mach.hist.inq,Machine History Inquiry
+blank,:
+bom.cap,BOM/Routing Capacity Planning
+exp.stock.mnt,Exp Stock Maintenance
+die-validation,Die Re-Validation Browse
+cm-pct.maint,Contribution Margin% Maint
+est-cap.maint,Estimating Capacity Maintenance
+gang-lbr.maint,Labor Entry Work Center Maint
+bom.maintenanc,File Maintenance
+bom.route,Bom/Routing Maintenance
+bom.est,Estimating
+machine.maint,Machine Maintenance
+workc.maint,Work Center Maintenance
+cost.maint,Cost Maintenance
+wctype.maint,Work Center Type Maintenance
+shop.calendar,Shop Calendar Maintenance
+coprod.maint,Coproduct Maintenance
+wcnotes.maint,Work Center Notes Maintenance
+laborcd.maint,Labor Code Maintenance
+voc.codes,VOC Specification Codes
+die.maint,Die Maintenance
+pms.maint,PMS Ink File Maintenance
+bom.ink,Bom For Inks Maintenance
+xref.ink,Ink-Xref File Maintenance
+mfg.ctrl.maint,MFG Control-File Maintenance
+bom.list,Bill of Material List
+routing.list,Routing List
+machine.list,Machine List
+workc.list,Work Center List
+cost.list,Cost List
+wctype.list,Work Center Type Listing
+shop.cal.list,Shop Calendar List
+coprod.list,Coproduct List
+rpt.pms,PMS Spec Report
+mfg.ctrl.list,Mfg Control File List
+lc.list,Labor Code Listing
+def.whs,Default Whs for BOM Maint
+mfg.wc.maint,MFG Work Center Maintenance
+bom.report,Management Reporting Menu
+indented.bom,Indented Bill of Material Report
+bom.routing,Indented BOM with Routings Report
+alternate.rout,Std and Alternate Routings Report
+summary.explos,Summarized Multi Level Explosion
+multrpt,Where-Used for Multiple Items
+wc.where.used,Work Center Where Used Report
+single.where,Single Level Where-used Report
+multi.where,Multi-Level Where-used Report
+pending.rev,Time Slice Revision Report
+dieusedrpt,Die Last Validation Date Report
+dievalrpt,Die Last Validation report
+bm.stack.log,Stackable Log On/Off
+reset.machine,Reset Machine Hours Used
+resetwk,Reset Work Center Hours Worked
+global.subst,Global Component Substitution
+globalwc.subst,Global Work Center Substitution
+std.cost.roll,Standard Cost Rollup Simulation
+std.cost.updat,Standard Cost Update
+abc.cost.reset,Reset ABC Cumulative Costs
+auto.std.roll,Daily Standard Cost Rollup
+blank,:
+damfgcube,Manufacturing Cube Export
+dawccube,Work Center Cube Export
+dasalescube,Sales Cube Export
+dafincube,Financial Cube Export
+dalbrcube,Labor Cube Export
+dademandload,Demand Based WC Load Cube Export
+dainvusage,9 Box Inventory Cube Export
+All-inv-turns,In-monthly-hist Table Build
+cfm,Continuous Flow Manufacturing
+cfm.overview,Overview Menu
+mfg.log,MFG Log On/Off
+cfm.maintenanc,File Maintenance Menu
+cfm.transactio,Transaction Processing Menu
+cfm.report,Management Reporting Menu
+cfm.inquiry,Inquiry Menu
+cfm.system,System Management Menu
+cfm.technical,Current Release Technical Notes
+cfm.exec,Executive Reporter Menu
+cfm.exec,Executive Reporter Menu
+cfm.inquiry,Inquiry Menu
+bom.rev.inq,BOM Revision Inquiry
+single.comp.in,Single-level Component Inquiry
+rout.rev.inq,Routing Revision Inquiry
+oper.inq,Operations Inquiry
+wk.inquiry,Work Center Inquiry
+wc.prod.inq,Work Center Production Inquiry
+wk.mat.var.inq,Work Center Material Variance Inq
+container.inq,Container Inquiry
+cont.hist.inq,Container History Inquiry
+bin.inq,Process Bin Inquiry
+bin.hist.inq,Process Bin History Inquiry
+mlbomoper.inq,:
+multi.bom.inq,:
+slbomoper2.inq,:
+slbomoper.inq,:
+mlbomoper2.inq,:
+machine.inq,Machine Inquiry
+mach.hist.inq,Machine History Inquiry
+cfm.maintenanc,File Maintenance Menu
+formula.maint,Formula (BOM) Maintenance
+process.maint,Process Stage(Routing) Maintenance
+workcs.maint,Work Center Maintenance
+cont.maint,Container Maintenance
+machine.maint,Machine Maintenance
+causec.maint,Reject Cause Maintenance
+bin.maint,Process (Mfg) Bin Maintenance
+density.maint,Item Density Maintenance
+wip.density,WIP Density Maintenance
+cost.maint,Cost Maintenance
+abc.pool.maint,Activity Based Cost-ABC Pool Maint
+shop.calendar,Shop Calendar Maintenance
+mfg.ctrl.maint,MFG Control-File Maintenance
+bomc.list,Bill of Material List
+routingc.list,Routing List
+workc.list,Work Center List
+cont.list,Container List
+machine.list,Machine List
+cause.list,Reject Cause List
+bin.list,Inventory Bin List
+density.list,Item Density List
+wipdens.list,Work in Process Density List
+cost.list,Cost List
+abc.list,Activity Based Cost (ABC) List
+shop.cal.list,Shop Calendar List
+mfg.ctrl.list,Mfg Control File List
+cfm.und-cost,Understanding Mfg. cost CFM/JIT
+cfm.overview,Overview Menu
+cfm.features,System Features
+cfm.proced.flo,Procedural Flow
+cfm.conversion,Conversion Guide
+cfm.demo,Self-paced CFM Demo
+cfm.report,Management Reporting Menu
+production.rep,Production Report
+wc.movement.re,Work Center Material Movement Rep
+indented.cfm,Indented Formula Report
+proc.stage,Indented Formula & Process Stage
+summarc.explos,Summarized Multi-Level Explosion
+mach.hist.rep,Machine History Report
+mat.var.rep,Material Variance Report
+singlec.where,Single Level Where-used Report
+multic.where,Multi-Level Where-used Report
+pending.rev,Time Slice Revision Report
+cfm.system,System Management Menu
+back.tran.purg,Backflush Transaction Purge
+mach.hist.purg,Purge Machine History
+std.cost.roll,Standard Cost Rollup Simulation
+std.cost.updat,Standard Cost Update
+rollup.yield,Rollup Actual Yields to Standards
+abc.cost.reset,Reset ABC Cumulative Costs
+incr.mfg.prd,Increment Year/Period
+cfm.transactio,Transaction Processing Menu
+cfm.issue.bins,CFM/Issue Raw Materials to Bins
+cfm.backflush,Single Stage Backflush
+last.cfm.back,Edit Last Backflush
+cfm.recv.proc,CFM/Receive Processed Inventory
+cfm.cont.adjus,CFM/Container Inventory Adjustment
+cfm.bin.adjust,CFM/Bin Inventory Adjustment
+mach.hist.entr,Machine History Entry
+bin.hist.list,Bin History List
+cont.hist.list,Container History List
+cfm.trans.jrnl,CFM/Inventory Transactions Journal
+cs,Counter Sales
+cs.overview,Overview Menu
+cs.log,Log On/Off
+cs.maintenance,File Maintenance Menu
+cs.transaction,Transaction Processing Menu
+cs.report,Management Reporting Menu
+cs.inquiry,Inquiry Menu
+cs.system,System Management Menu
+cs.technical,Technical Documentation Menu
+cs.exec,Executive Reporter Menu
+cs.exec,Executive Reporter Menu
+cs.inquiry,Inquiry Menu
+sess.inq,Cash Drawer Sessions in Progress
+hist.inq,Cash Drawer History Inquiry
+cash.dwr.inq,Cash Drawer Inquiry
+term.assgn.inq,Terminal Assignment Inquiry
+cs.maintenance,File Maintenance Menu
+csh.dwr.maint,Cash Drawer Maintenance
+term.maint,Terminal Assignment Maintenance
+cc.maint,Valid Credit Card Maintenance
+cs.ctrl.maint,C/S Control-File Maintenance
+csh.dwr.lst,Cash Drawer List
+term.lst,Terminal Assignment List
+term.aud,Terminal Assignment Audit Trail
+cc.lst,Valid Credit Card List
+cs.ctrl.audit,C/S Control-File Audit Trail
+cs.audits,C/S Audit Trails (All Others)
+cs.overview,Overview Menu
+cs.features,System Features
+cs.proced.flow,Procedural Flow
+cs.balancing,Balancing Procedures
+cs.conversion,Conversion Guide
+cs.demo,Self-Paced CS Demo
+cs.report,Management Reporting Menu
+sess.report,Session History Report
+invoice.report,Invoice Report
+cpaymnt.report,Payments Report
+cntrsal.detail,Detailed Transaction Report
+cs.system,System Management Menu
+cs.stack.log,C/S Stackable Log On/Off
+drawer.edit,Edit Drawer Session History
+cs.rev.invoice,Counter Sales Invoice Reversal
+blank,:
+incr.cs.prd,C/S Increment Year/Period
+blank,:
+sess.purge,Session History Report Purge
+invoice.purge,Invoice Report Purge
+paymnt.purge,Payments Report Purge
+term.purge,Purge the Terminal Assignment File
+cs.technical,Technical Documentation Menu
+cs.transaction,Transaction Processing Menu
+start.dwr,Start Cash Drawer Session
+counter.sale,Counter Sale Transactions
+end.dwr,End Cash Drawer Session
+cntr.audit,Counter Sale Audit Trail
+cntr.sale.jrnl,Counter Sale Journal
+Form.Alignment,Form Alignment
+e-log.inq,Electronic Log Query/Browse
+loc.maint,Location Maintenance
+shipment.maint,ASN Shipment Header Maintenance
+blank3,:
+blank3,:
+blank3,:
+blank3,:
+edi.admin,EDI/BarCode Admin Menu
+asn-cum-reset,ASN Cumulative Total Reset
+lblprt,Bar Code Print Function
+fixordlnref,Fix Order Line References from 862
+ford.830,Ford 830 Excel All Items
+conti-waterfal,Conti Waterfall CSV File
+edi.admin,EDI/BarCode Admin Menu
+bc_setup,Barcode Printer Setup
+bc_lbl,Barcode Label Maintenance
+custlbl.maint,Customer Barcode Label Maintenance
+lbltype.maint,Label Type Maintenance
+edimaint,EDI Control File Maintenance
+crtrulerefer,Refer Ctrl For EDI Rules Maint.
+genrlmnt,Generic EDI Rules Maintenance
+blank4,:
+blank4,:
+blank4,:
+blank4,:
+blank4,:
+blank4,:
+spool.maint,Modem Spooler Maintenance
+blank,:
+edi-db-maint,Control-File Maintenance
+edimaint,EDI Control File Maintenance
+crtrulerefer,Refer Ctrl For EDI Rules Maint.
+genrlmnt,Generic EDI Rules Maintenance
+blank,:
+edi-alias,EDI Alias Trading Partner Maint.
+edi-oe-maint,EDI Order Entry Ctrl Maintenance
+blank,:
+cp-edi-ctrl,Copy EDI Control Records
+bc_lbl,Barcode Label Maintenance
+lbltype.maint,Label Type Maintenance
+custlbl.maint,Customer Barcode Label Maintenance
+blank,:
+edi.rules,EDI Rules
+edi.registry,EDI Registry
+blank,:
+blank,:
+blank,:
+spool.maint,Modem Spooler Maintenance
+bc_setup,Barcode Printer Setup
+uploaddir,Upload Directory Maintenance
+import,Import EDI to Sales Orders
+edi.invoice,EDI 810 Invoice Outbound
+poack,Purchase Order Acknowledgements
+856-so-imp,Import Vendor ASN into Titan
+conv.edi.so,Convert EDI into Titan SO's
+blank,:
+shipment.maint,ASN Shipment Header Maintenance
+lblprt,Bar Code Print Function
+fixordlnref,Fix Order Line References from 862
+fa,Fixed Assets
+fa.overview,Overview Menu
+fa.log,Log On/Off
+fa.maintenance,File Maintenance Menu
+fa.transaction,Transaction Processing Menu
+fa.report,Management Reporting Menu
+fa.inquiry,Inquiry Menu
+fa.system,System Management Menu
+fa.technical,Technical Documentation Menu
+fa.exec,Executive Reporter Menu
+help,How To Get Help
+help.inq,Help Choices
+browse.zoom,Browse/Zoom Procedures
+menu.inq,Display Available Menus
+quit,Quit from PROGRESS. End of session
+fa.exec,Executive Reporter Menu
+fa.inquiry,Inquiry Menu
+asset.inq,Asset Master Inquiry
+book.inq,Asset Book Data Inquiry
+tax1.inq,Asset Tax-1 Data Inquiry
+tax2.inq,Asset Tax-2 Data Inquiry
+fa.maintenance,File Maintenance Menu
+fa.edit.mast,Master File Maintenance
+fa.loc.edit,Location File Maintenance
+fa.tax.edit,Tax Table Maintenance
+fa.gl.edit,G/L Group Maintenance
+fa.dep-table,Depreciation Table Maintenance
+fa.cont.edit,Control File Maintenance
+fa.sort1.edit,Sort Code-1 Maintenance
+fa.sort2.edit,Sort Code-2 Maintenance
+fa.vendor.edit,Vendor File Maintenance
+fa.insurance,Asset Insurance File Maintenance
+fa.bgt.maint,FA Budget Maintenance
+fa.mastad,Master File Audit Trail
+fa.loc.audit,Location File Audit Trail
+fa.tax.audit,Tax Table Audit Trail
+fa.gl.audit,Group Audit Trail
+fa.cont.audit,Control File Audit Trail
+fa.asort1,Sort Code-1 Audit Trail
+fa.asort2,Sort Code-2 Audit Trail
+ins.file.list,Insurance Policy Listing
+fa.vendor.list,Vendor Listing
+fa.overview,Overview Menu
+methods,Accounting Considerations
+benefits,System Benefits
+features,System Features
+fa.proced.flow,Procedural Flow
+convert,Conversion Guide
+fa.demo,Self-Paced F/A Demo
+fa.report,Management Reporting Menu
+fa.schedule,Master File List
+fa.cy.addition,Current Year Additions
+fa.cy.retire,Current Year Disposals
+fa.book.value,Asset List With Book Value
+fa.ledger,Asset Ledger: Book Depreciation
+fa.ledger-tax1,Asset Ledger: Tax-1 Depreciation
+fa.ledger-tax2,Asset Ledger: Tax-2 Depreciation
+fa.sch,Fixed Asset Depreciation Schedules
+fa.spreadsheet,Output Schedules To Spreadsheet
+fa.busprop,Property Statement Support Report
+fa-alt-min-tax,Print Schedule For Alt. Min. Tax
+fa.detail.list,Detail Master Asset Listing
+fa.analysis,ABC Analysis
+fa.loc.list,Location List
+fa.glmast.list,Group List
+fa.tax-tables,Tax Table List
+fa.tags,Print Asset Labels/Tags
+fa.cont,Control File List
+fa.gl.report,Distribution Report
+sort1.list,Sort Code 1 List
+sort2.list,Sort Code 2 List
+fa.dep-tabt,Depreciation Table List
+fa.system,System Management Menu
+fa.post,Apply Journal Entries
+fa.purge,Purge Sold Asset Data
+fa.prd.close,Increment Login Period
+fa.year-close,Reset For New Year
+fa.interface,To G/L Interface
+fa.distprg,Distribution Purge
+asset-rev,Reverse Asset Entries
+fa.technical,Technical Documentation Menu
+fa.files,File Layouts
+fa.source,Source Modules
+fa.transaction,Transaction Processing Menu
+fa.auto.calc,Auto-Calculate Depreciation/Update
+fa.journal,Book Adjustment Entries
+fa-jrnl-tax-1,Tax-1 Adjustment Entries
+fa-jrnl-tax-2,Tax-2 Adjustment Entries
+fa.midqrtr,Mid-Quarter Convention Check
+fa.sale.asset,Retire Fixed Assets
+fa.work.order,Generate Maintenance Work Orders
+fa.budget.updt,FA Budget Update
+fa.atran.list,Print Created Entries
+fa.jrnl.list,Journal Entries List
+fa.sale.audit,Retired Assets List
+fa.print.wo,Print Maintenance Work Orders
+fa.budget.list,FA Budget Listing
+gl,GL General Ledger
+gl.log,Log On/Off
+gl.maintenance,G/L File Maintenance Menu
+gl.transaction,Transaction Processing Menu
+gl.report,Management Reporting Menu
+gl.inquiry,Inquiry Menu
+gl.system,System Management Menu
+gl.inquiry,Inquiry Menu
+gl.acct.inq,Chart of Accounts Inquiry
+gl.hist.inq,Account Summaries/Budget Inquiry
+gl.trans.inq,Transaction Inquiry
+gl.entry.inq,Journal Entry Inquiry
+fs.line.inq,Financial Statement Lines Inquiry
+gl.maintenance,G/L File Maintenance Menu
+chart.maint,Chart of Accounts Maintenance
+chart.delete,Delete G/L Codes
+chart.audit,Chart of Accounts Audit Trail
+category.maint,Category Maintenance
+category.audit,Category Audit Trail
+gl.ctrl.maint,Control-File Maintenance
+chart.list,Chart of Accounts List
+category.list,Category List
+gl.ctrl.list,Control-File List
+gl.report,Management Reporting Menu
+fs.headings,F/S Headings Maintenance
+head.copy,F/S Headings Copy
+fs.body,F/S Body Maintenance
+body.copy,F/S Body Copy
+budget.sheet,Budget Worksheet
+budget.entry,Budget Entry
+budget.entry,Budget Entry
+general.ledger,General Ledger
+fs.headlist,F/S Headings List
+fs.bodylist,F/S Body List
+fs.bodycheck,F/S Body By Account Ranges
+fs.check,Check Financial Statement Format
+fs.print,Print Financial Statements
+fs.schedule,Print Expense Schedules
+budget.list,Budget List
+po.bgac,Redistribut reconciled receipts
+po.spec,Non reconciled receipts report
+gl.rpt.rr,financial stmt gen. over 10 column
+budgvar,Budget Variance Report
+genent,General Ledger Report By Entity
+argener,GL report for AR only
+general.year,GL Report for Previous Years
+gl.system,System Management Menu
+gl.stack.log,Stackable Log On/Off
+close.prd,Close Fiscal Period
+closing.entry,Generate Year-End Closing Entries
+gl.purge,Purge General Ledger Details
+close.year,Close Fiscal Year
+gl.verify,Verify & Balance
+inv.bridge,Inventory Bridge (Fix) Program
+chart.purge,Chart of Accounts Purge
+gl.ctrl.purge,Control-File Purge
+gl.transaction,Transaction Processing Menu
+journal.entry,Journal Entry
+revers.entry,Reversing Journal Entry
+recur.entry,Recurring Journal Entry Setup
+auto.entry,Automatic Distribution Entry Setup
+recur.apply,Apply Recurring/Automatic Entries
+update.gl,Update General Ledger
+trial.balance,Trial Balance Worksheet
+journal.list,Journal List
+revers.list,Reversing Journal List
+recur.list,Recurring Journal List
+auto.list,Automatic Distribution List
+general.journ,General Journal
+in,IN Inventory Management
+in.log,Log On/Off
+ep-maint,End Product Maintenance
+itemlcost,EOY Capture of Last Cost
+itemlcupd,EOY Last Cost Update
+subkit.maint,Subkit Type Maintenance
+itemstat.maint,Item Status Maint
+reserve-brws,Item Never Reserve Browse
+blank,:
+item.maint2,Inventory Item Maintenance
+itm-status-upd,Item Status Update
+resetcnt,Reset Count Sheets - S Entity Only
+chgsec,Change Inventory Screen Security
+blank,:
+harm.code,Harmonized Code Maintenance
+update-reserve,Update Reserve LCM
+blank,:
+item-lot-conv,Convert Item to Lot Tracked
+bc-item-lot,Reprint Item Lot Barcode
+cust-whs-inv,Customer Warehouse Inventory
+item.inquiry,Item Profile Inquiry
+warehouse.inq,Item Warehouse Inquiry
+quantity.inq,Item Warehouse Quantities Inquiry
+usage.inq,Sales/Usage Statistics Inquiry
+lot.inquiry,LIFO/FIFO Item Inquiry
+serial.inquiry,Serialized Item Inquiry
+in.dist.inq,Distribution Inquiry
+kit.inquiry,Kit Inquiry
+movement.inq,Inventory Movement Inquiry
+movement.dtls,Inventory Movement Details
+move.lot.inq,Inventory Movement - Serial/Lot
+activity.inq,Item Warehouse Activity Inquiry
+kardex.inq,Item Warehouse Kardex Inquiry
+tax.auth.inq,Tax Authority Inquiry
+price.brk.inq,Price break inquiry
+xfer.req.inq,Warehouse Transfer Inquiry
+trans.item.inq,Warehouse Transfer Item Inquiry
+item.cost.inq,Item Standard/Level Cost Inquiry
+in.mbinq,Item Qty and Location Inquiry
+in.rdinq,R-DOCK Inventory Inquiry
+shiphist.inq,Shipping History Inquiry
+whsinq,Cross Entity Bin/Whs Inquiry
+inqmbau,Transaction Register Bin Inquiry
+trans.inq,Transaction register Inquiry
+au0.scroll,Bin Audit with Scroll
+itemlcqry,EOY Last Cost Inquiry
+item.maint,Inventory Item Maintenance
+uom.maint,Inventory UOM Maint.
+group.maint,Inventory Product Group Maint.
+reason.maint,Inventory Reason Maintenance
+whs.maint,Inventory Warehouse Maintenance
+tax.maint,Tax Authority Maintenance
+sub.maint,Inventory Item Substitution Maint.
+attrib.maint,Product Grp Attribute Maintenance
+in.ctrl.maint,Control-File Maintenance
+item.list,Inventory Item List
+group.list,Inventory Product Group list
+tax.list,Tax Authority List
+in.audits,Audit Trails (All Others)
+gl.maintenance,G/L File Maintenance Menu
+wh.binmaint,Master Bin Location Maintenance
+wh.multima,Bin to Item Maintenance
+wh.mctrlma,Multi-bin Control File Maintenance
+plates.maint,Screen Inventory Maintenance
+plates.inq,Screen/Positive Inv Inquiry
+positive.maint,Positive Storage Maintenance
+altrpt,Alteration Change Report
+prog.upd,Prog File Maintenance
+prog.purg,Prog File Purge
+in.valuation,Inventory Valuation Report
+stock.report,Stock Status Report
+in.aging,Inventory Aging Report
+lot.report,Lot Tracking Report for Medical
+itemlcrpt,Zero Last Cost on EOY Capture Rpt
+au0,Bin Audit
+inlcm-rpt,Inventory LCM Report
+inv.adj.rpt,Inventory Adjustment Report
+in.stack.log,Stackable Log On/Off
+ppsvia,Update PPS Ship-via
+cost.update,Item Cost Update
+update.uom,Correct Item UOM-Codes
+in.mbtempprg,Purge Temporary Multibins
+in.mbauprg,Purge Multibin Movement Records
+tran.purge,Purge Transaction Register
+change.item,Change Item Entity
+change.cust,Change Customer Entity
+stock.transfer,One Step Stock Whs Transfer
+req.whs.trans,Request Warehouse Transfer
+alloc.whs.tran,Allocate Warehouse Transfer
+print.transfer,Print Transfer Pick List
+ship.stock,Ship Stock
+receive.stock,Receive Stock
+receive.wip,Receive Stock From Work-In-Process
+issue.wip,Issue Stock To Work-In-Process
+stock.adjust,Stock Adjustment
+trans.jrnl,Inventory Transactions Journal
+mv-rd,Move Inventory from R-DOCK to bins
+wh.multiadj,Adjust Item Qty's in Bins
+wh.rdock-move,Move Items from R-DOCK to Bins
+cost.adjust,Adjust Cost (All Warehouses)
+count.sheets,Physical Count Worksheets
+count.entry,Physical Count Entry
+count.report,Physical Count Report
+missing.sheets,Missing Count Sheets Report
+in.variance,Inventory Variance Report
+update.stock,Update Physical Inventory
+stock.jrnl,Physical Inventory Journal
+wh.mbinitem,Bin Quantities by Item report
+wh.mbinrpt,Report of Item Quantities by bin
+count.audit,Auditor's Count Report
+in.countags,Physical Count Labels
+count.sheets,Physical Count Worksheets
+blank.count,Blank Count Sheets
+in.countags,Physical Count Labels
+blank,:
+count.entry,Physical Count Entry
+count.report,Physical Count Report
+count.audit,Auditor's Count Report
+in.variance,Inventory Variance Report
+blank,:
+update.stock,Update Physical Inventory
+count.order,Set Count Sheet Order
+blank,:
+chgsec,Change Inventory Screen Security
+star.qty,Set Star-Item Qty
+count.sh.mass,Mass Count Sheets
+blank,:
+jit,JIT/ Repetitive Manufacturing
+jit.overview,Overview Menu
+mfg.log,MFG Log On/Off
+jit.maintenanc,File Maintenance Menu
+jit.transactio,Transaction Processing Menu
+jit.report,Management Reporting Menu
+jit.inquiry,Inquiry Menu
+jit.system,System Management Menu
+jit.technical,Current Release Technical Notes
+jit.exec,Executive Reporter Menu
+jit.exec,Executive Reporter Menu
+jit.inquiry,Inquiry Menu
+bom.rev.inq,BOM Revision Inquiry
+single.comp.in,Single-level Component Inquiry
+rout.rev.inq,Routing Revision Inquiry
+oper.inq,Operations Inquiry
+wk.inquiry,Work Center Inquiry
+wc.prod.inq,Work Center Production Inquiry
+wk.mat.var.inq,Work Center Material Variance Inq
+container.inq,Container Inquiry
+cont.hist.inq,Container History Inquiry
+bin.inq,Process Bin Inquiry
+bin.hist.inq,Process Bin History Inquiry
+opt.bill.inq,Options Bill Inquiry
+machine.inq,Machine Inquiry
+mach.hist.inq,Machine History Inquiry
+jit.maintenanc,File Maintenance Menu
+bill.maintenan,Bill of Material Maintenance
+routing.maint,Routing Maintenance
+workcs.maint,Work Center Maintenance
+cont.maint,Container Maintenance
+machine.maint,Machine Maintenance
+causec.maint,Reject Cause Maintenance
+bin.maint,Process (Mfg) Bin Maintenance
+density.maint,Item Density Maintenance
+wip.density,WIP Density Maintenance
+cost.maint,Cost Maintenance
+abc.pool.maint,Activity Based Cost-ABC Pool Maint
+shop.calendar,Shop Calendar Maintenance
+mfg.ctrl.maint,MFG Control-File Maintenance
+bomc.list,Bill of Material List
+routing.list,Routing List
+workc.list,Work Center List
+cont.list,Container List
+machine.list,Machine List
+cause.list,Reject Cause List
+bin.list,Inventory Bin List
+density.list,Item Density List
+wipdens.list,Work in Process Density List
+cost.list,Cost List
+abc.list,Activity Based Cost (ABC) List
+shop.cal.list,Shop Calendar List
+mfg.ctrl.list,Mfg Control File List
+jit.overview,Overview Menu
+jit.features,System Features
+jit.proced.flo,Procedural Flow
+jit.conversion,Conversion Guide
+jit.demo,Self-paced JIT Demo
+jit.report,Management Reporting Menu
+production.rep,Production Report
+wc.movement.re,Work Center Material Movement Rep
+indented.bom,Indented Bill of Material Report
+bom.routing,Indented BOM with Routings Report
+alternate.rout,Std and Alternate Routings Report
+summary.explos,Summarized Multi Level Explosion
+mach.hist.rep,Machine History Report
+mat.var.rep,Material Variance Report
+single.where,Single Level Where-used Report
+multi.where,Multi-Level Where-used Report
+pending.rev,Time Slice Revision Report
+jit.system,System Management Menu
+back.tran.purg,Backflush Transaction Purge
+mach.hist.purg,Purge Machine History
+std.cost.roll,Standard Cost Rollup Simulation
+std.cost.updat,Standard Cost Update
+rollup.yield,Rollup Actual Yields to Standards
+abc.cost.reset,Reset ABC Cumulative Costs
+incr.mfg.prd,Increment Year/Period
+jit.transactio,Transaction Processing Menu
+jit.issue.bins,Issue Raw Materials to Bins
+jit.backflush,Work Center(Point-of-Use)Backflush
+last.jit.back,Edit Last Work Center Backflush
+jit.recv.proc,Receive Processed Inventory
+jit.cont.adjus,Container Inventory Adjustment
+jit.bin.adjust,Bin Inventory Adjustment
+mach.hist.entr,Machine History Entry
+bin.hist.list,Bin History List
+cont.hist.list,Container History List
+jit.trans.jrnl,Inventory Transactions Journal
+mrp.log,MRP Log On/Off
+detail.inquiry,MRP Detailed Inquiry
+mrp.inq,MRP Inquiry
+sumunit.list,Summary Report in Units
+detail.report,Detailed Pegging Report
+locked,Identify User Lock from Port
+find-user,Find Titan User
+bat.prn.maint,Batch Job Printer Maintenance
+op,OP Sales Order Processing
+op.log,Log On/Off
+op.maintenance,File Maintenance Menu
+op.transaction,Transaction Processing Menu
+op.report,Management Reporting Menu
+op.inquiry,Inquiry Menu
+order.audit,Order Entry Audit Trail
+h/r.audit,Hold/Release Audit Trail
+cancel.audit,Cancelled Picking Slip Audit Trail
+invoice.audit,Order Invoicing Audit Trail
+billing.audit,Direct Billing Audit Trail
+itemlabel2d,2D Item Label
+op.inquiry,Inquiry Menu
+sa.cust.inq,Sales Analysis Statistics
+sa.item.inq,Sales Analysis By Item Inquiry
+pricing.inq,Customer Pricing Inquiry
+invoice.inq,Sales Invoice Inquiry
+inv.line.inq,Sales Invoice Lines
+order.inquiry,Sales Order Inquiry
+order.line.inq,Sales Order Lines
+quote.inquiry,Quotation Order Inquiry
+quote.ln.inq,Quotation Order Lines
+pps.inquiry,Picking Slip Inquiry
+pps.line.inq,Picking Slip Lines
+alloc.inq,Allocated Order Inquiry
+alloc.ln.inq,Allocated Order Lines
+atp.distribute,Available-to-Promise (ATP) Display
+custship.inq,Customer Ship-to Inquiry
+shiphist.inq,Shipping History Inquiry
+op.add.inq,Order Additional Charges Inquiry
+iv.add.inq,Invoice Additional Charges Inquiry
+horder.inquiry,Order History Inquiry
+horder.line.in,Order History Line Inquiry
+hord.add.inq,Order History Add Charges Inquiry
+hinvoice.inq,Sales Invoice History Inquiry
+hinv.line.inq,Sales Invoice History Line Inquiry
+hinv.add.inq,Sales Invoice History Add Chg Inq
+itminq,Item Inquiry
+h-order.inq,PO by Customer Inquiry
+inqbkg,Bookings Report Inquiry
+op.histinq,Ship History Archive Inquiry
+op.maintenance,File Maintenance Menu
+ord-type.maint,Order-Type Maintenance
+charge.maint,Additional Charge Maintenance
+op.ctrl.maint,Control-File Maintenance
+op.ctrl.audit,Control-File Audit Trail
+xent.maint,X-Entity Maintenance
+shipping.maint,Customer Shipping Maintenance
+shipto.maint,Customer Ship-to Maintenance
+bill-funct,Billing Functions
+pobuyer,Buyer/Planner Group Maintenance
+pt.maint,Product Type Maintenance
+conttype.maint,Shipping Container Type Maint.
+item.xref,Serigraphs Item/Cust Cross Ref
+custpric.list,Customer Pricing List
+ord-type.list,Order-Type List
+charge.list,Additional Charge List
+op.ctrl.list,Control-File List
+op.audits,Audit Trails (All Others)
+custsh.rpt,Customer Ship-to Report
+pt.list,Product Type Listing
+upd.cust.add,Update Customer Address on Orders
+custprcb,Verify Customer Pricing
+autobprc,Customer Pricing Conversion
+itemchg,Update Item Buyr/Plnr and End Prod
+cust.sh.imp,Customer Ship-To Import
+cust.sh.exp,Customer Ship-To Export
+comm-brk-maint,Commission Breakdown Maintenance
+comm-brk-maint,Commission Breakdown Maintenance
+pps.load,PPS - Pitney Load of Orders
+pps.loadd,PPS - Direct Load
+pps.maint,PPS - Maintainenance
+pps.inv,PPS - Invoice all orders
+fcrpt,Forecast Report
+pps.down,Pitney Order File Transfer
+pps.dos,PPS - Transfer to DOS
+pps.plist,PPS - Pitney List
+pps.ilist,PPS - Invoices Review List
+qquote.f,Quick quote setup
+qquite.e,Quick quotes
+op.report,Management Reporting Menu
+stock.report,Stock Status Report
+order.customer,Orders By Customer Number Report
+in.custrel,Customer Release/Inventory Report
+slsrpt,Sales Margin Report
+op.custrel,Customer Release Report
+proj.ship,Projected Shipments report
+invupd,Invoice update report
+op.xslsrpt,Corporate sales report
+aberrpt,Auto Billing Error Report
+abstatrpt,Auto Billing Statistical Report
+delvper,Delivery Performance
+air.report,Air Authorization Report
+acct.rpt,Monthly Account Status Report
+retail.report,Retail Report
+outstand.slip,Outstanding Picking Slip Report
+sa-stats.item,S/A By Stats-Code By Item
+sa-sales.cust,S/A By Sales Rep By Customer
+sa-cust.item,S/A By Customer By Item
+sa-cust.type,S/A By Customer By Customer-Type
+invoice.report,Invoice Report
+op.tax,Sales Tax Report
+invaud,Invoice Print Audit Report
+booking,Bookings Report
+invjrl,Invoice/Credit Journal
+shiplog,Shipping Log Report
+chgprt,Change printer form id
+pickrpt,Picking Slip Report
+op.stack.log,Stackable Log On/Off
+sa.reset,Sales Analysis Reset
+incr.op.prd,Increment Year/Period
+order.purge,Order Purge
+invoice.purge,Invoice Report Purge
+quote.purge,Quotation Purge
+quote.cancel,Automatic Quotation Cancellation
+invoice.fix,Clean-up Corrupt Invoices
+horder.purge,Order History Purge
+hinvoice.purge,Invoice History Purge
+shiphist.purge,Purge Shipping History
+air.prg,Air Authorization Purge
+rest-shiphist,Restore Shipping History
+invoicing,Order Invoicing
+billing,Direct Billing & Credit Notes
+invcopt,Invoicing Options
+ctrl.invoices,Print Invoices Controlled Document
+invoices,Print Invoices
+inv.line.cost,Invoice Line Cost Update
+cc-disconnect,CC Disconnect
+tmplt-inv-data,Template Invoice Data Report
+custsalmnt,Customer Maint for Sales
+op.transaction,Transaction Processing Menu
+quote.entry,Quotation Entry
+order.entry,Order Entry
+allocate.order,Allocation By Order
+allocate.item,Allocation By Item
+generate.slips,Picking Slip Generation
+cancel.slips,Picking Slip Cancellation/Change
+upditem,Order Line Update
+ppscons,Manifested Packing Slip
+pps-to-rdock,Move Items on PPS to R-Dock
+blank,:
+op.allo-gen,One Step Allocate/Generate/Print
+blank,:
+pick,Pick Parts to R-Dock
+form.alignment,Form Alignment
+confirmations,Print Order Confirmations
+picking.slips,Print Picking Slips
+comm.invoice,Commercial Invoice Print
+ship-con,Ship Consignment/VMI Sales Orders
+ppsprnd,On-demand PPS print
+packslp1,Print Pack Slip (from PPS)
+air.auth,Air Authorization Maint (Sales)
+air.ship,Air Authorizations for Shipping
+ez.need.titan,ezPOP Need Titan Order Flag
+cust-memo,Customer Memo Update
+popeyes-import,Popeye's PO/Pricing Import
+promo-to-so,ezPOP Promotion Import
+ez-item-maint,ezPOP - Item Maint
+blank,:
+pps.cust,PPS For Customer Part Number
+mfg.log,MFG Log On/Off
+pac.maintenanc,File Maintenance Menu
+pac.transactio,Transaction Processing Menu
+pac.report,Management Reporting Menu
+pac.inquiry,Inquiry Menu
+pac.inquiry,Inquiry Menu
+wo.inquiry,Work Order Inquiry
+wc.inquiry,Work Center Inquiry W/Labor
+whs.inquiry,Warehouse Inquiry
+wo.oper.inq,WO Operation Inquiry
+oper.tran.inq,WO Operation Transaction Inquiry
+oper.time.inq,WO Operation Time Inquiry
+fg.inquiry,Finished Goods Inquiry
+fg.tran.inq,Finished Goods Transaction Inquiry
+lot.track.inq,Lot Tracking Inquiry
+labor.maint,Labor Logs Inquiry/Maintenance
+woanalys,Work Order Analysis
+oos.inq,O.O.S. Inquiry
+woyld.inq,Work Order Yield Inquiry
+emp.inq.mfg,Employee Inquiry for MFG
+mach.hist.inq,Machine History Inquiry
+wip.load.inq,Capacity and WIP Load Inquiry
+wip,Work Order by Item Inquiry
+pp1,Replacement for PP1 Screen Inq.
+hvoc.tran,Voc-tran History
+h-work-order,Work Order History Inquiry
+wcscrinq,Work Center Screening Inquiry
+wcinkinq,Work Center Ink Inquiry
+prepinq,Prep Screen Inquiry
+cm.cost.inq,CM Cost Breakdown Inquiry
+pac.maintenanc,File Maintenance Menu
+shop.calendar,Shop Calendar Maintenance
+emp.maint,Employee Maintenance for MFG
+pa.empdmnt,Employee Wage Maintenance
+cost.maint,Cost Maintenance
+cause.maint,Reject Cause Maintenance
+mfg.ctrl.maint,MFG Control-File Maintenance
+wotc.maint,Work Order Type Code Maintenance
+container.type,Ink Container Type Maintenance
+exc.labor,Labor Recording Shift/Exception Ma
+param.control,Parameter Control File Maintenance
+fc.maint,Family Code Maintenance
+probcaus.maint,Problem/Cause Maintenance
+abcpool,ABC Cost Pool Maintenance
+travlrcpt,WO Traveler Shipping Form Maint
+shop.cal.list,Shop Calendar List
+employee.list,Employee List
+pa.emp-dr,Employee Wage List
+cost.list,Cost List
+cause.list,Reject Cause List
+mfg.ctrl.list,Mfg Control File List
+wotc.list,Work Order Type Code List
+abccontrol,ABC Material Control
+param.cntl.lst,Parameter Control Listing
+fc.listing,Family Code Listing
+blank,:
+pac.report,Management Reporting Menu
+wo.summary.rep,Work Order Summary Report
+wo.detail.rep,Work Order Detail Report
+wo.status.rep,Work Order Status Report
+oper.status,Work Center Operational Status Rep
+wo.yield.rep,Work Order Yield Report
+wo.miss.iss,Work Order Missing Issues Report
+wk.capacity,Work Center Capacity & Load Report
+dispatch.rep,Dispatch Report/W-Center Priority
+mach.hist.rep,Machine History Report
+wo.oneline,WIP Report by Buyer/Planner
+wo.actual,Month End WIP Report
+labor.analysis,Labor Analysis Report
+exp.rpt,Expedite Report
+recut.report,Recut Report
+except.report,Variance Exception Report
+mat.issue,Monthly Material/Ink Issue
+cost.var.rep,Cost Variance Report
+oos.report,OOS/ Out Of Stock Report
+wc.activity,Work Center Activity Report
+emp.active,Employee Activity Report
+altrpt,Alteration Change Report
+downtime.rpt,Manufacturing Downtime/Indirect Rp
+product.rpt,Manufacturing Productivity Report
+inspection.rpt,Inspection Labor Detail Report
+closewo,Closed Work Order Report
+comp.usg.rpt,WO Component Usage Variance Report
+runview,View Report Output From a File
+bm.stack.log,Stackable Log On/Off
+incr.mfg.prd,Increment Year/Period
+rollup.yield,Rollup Actual Yields to Standards
+purge.batch,Batch Purge
+purge.voc,Voc-tran Purge
+rollccode,Roll Workcenter Costs to History
+ind.wo.mass,Indirect Work Order Mass Change
+blank,:
+blank,:
+blank,:
+blank,:
+blank,:
+blank,:
+rollclist,Workcenter Cost (Curr/LY) List
+ink,Laminate Material Order Screen
+mach.hist.entr,Machine History Entry
+finite.schedul,Finite Scheduling
+bottleneck.sch,Bottleneck Scheduling
+resched.wo,Reschedule Selected Work Orders
+split.wo,Split / Merge Work Order
+pac.inv.jrnl,PAC/Inventory Transactions Journal
+pac.transactio,Transaction Processing Menu
+release.wo,Release/Create/Print Work Order
+wo.sched,Work Order Sched/Maint
+wo.sched,Work Order Sched/Maint
+shortage.check,Component Shortage Check
+issue,Record Labor/Material
+labor,Record Labor
+voc.batch,VOC Batch/Tracking
+oos.maint,O.O.S. Maintenance
+ibl,Ink Batch Labels
+hold.free,Hold / Free Work Orders
+wo.edit,Edit Completed Work Order
+receive.fg,Receive Finished Goods
+close.wo,Close Fully Received Work Order
+skip,Close Work Order Operations
+wclabr.maint,Labor Recording Maint by Work Cntr
+pushout-wo,Pushout VarPrint WO Files
+closed.wo,F/RL/S/MC/RC/CC Work-order Inq/Ma
+calculate.wip,Calculate Capacity and WIP Load
+voc.log,VOC Logs
+labor.maint,Labor Logs Inquiry/Maintenance
+wo.print,Print/Reprint Work Orders
+audit.labor,Labor Recording Audit Inq/Maint
+und.mfg.cost,Understanding Manufacturing Cost
+on-line.sch,On-line Schedule for Inks/Screens
+ink.issue,Ink Issue/Return/Adjust
+order.ink,On-line Schedule Order Maint.
+invinwo,Change WO on Invoice Line
+fix-wo-iss-cst,Update WO Issue Costs
+woudtypcode,Release Work Order
+pj,Project Costing
+pj.overview,Overview Menu
+pj.log,Log On/Off
+pj.maintenance,File Maintenance Menu
+pj.transaction,Transaction Processing Menu
+pj.report,Management Reporting Menu
+pj.inquiry,Inquiry Menu
+pj.system,System Management Menu
+pj.technical,Technical Documentation Menu
+pj.exec,Executive Reporter Menu
+pj.exec,Executive Reporter Menu
+pj.inquiry,Inquiry Menu
+project.inq,Project Master Inquiry
+pj.maintenance,File Maintenance Menu
+project.maint,Project Maintenance
+:,:
+task.maint,Task Maintenance
+:,:
+project.type,Project Type Maintenance
+cotgr.maint,Cost Group Maintenance
+pj.cost.maint,Direct Cost Type Maintenance
+pj.rate.maint,Wage Rate/Category Maintenance
+pj.emp.maint,Employee Maintenance
+:,:
+ratetype.maint,Rate Type Maintenance
+rateappl.maint,Rate Application Maintenance
+pj.projgl.main,Project GL Accounts Maintenance
+pj.ptygl.maint,Project Type GL Accounts Maint.
+pj.ctrl.maint,PJ Control-File Maintenance
+project.list,Project List
+project.audit,Project Audit Trail
+task.list,Task List
+task.audit,Task Audit Trail
+pj.type.list,Project Type List
+cotgr.list,Cost Group List
+pjcost.list,Direct Cost Type List
+pjrat.list,Wage Rate List
+pjemp.list,Employee List
+:,:
+rate.type.list,Rate Type List
+rateappl.list,Rate Application List
+pjglacct.list,Project GL Accounts list
+pjtypgl.list,Project Type Gl Accounts List
+pj.ctrl.list,PJ Control-File List
+pj.audits,P/J Audit Trails (All Others)
+pj.overview,Overview Menu
+pj.benefits,P/J System Benefits
+pj.features,P/J System Features
+pj.proced.flow,P/J Procedural Flow
+pj.conversion,P/J Conversion Guide
+pj.report,Management Reporting Menu
+project.cost,Project Cost Detail Report
+cost.ledger,Project Cost Ledger
+dollars.commit,Dollars Committed - Summary Report
+commit.detail,Dollars Committed -- Detail Report
+pj.apcjr,Print/Reset Applied Cost Journal
+gantt.chart,Gantt Chart
+wbs.list,Task Structure List
+pj.system,System Management Menu
+pj.inactivate,Inactivate Project/Tasks
+purgproj,Purge Project Data
+pj.jrnapl,Applied Cost to GL
+pj.rverpst,Revenue and Earnings to GL
+me.close,Month End Project Cost Close
+:,:
+pjsum.maint,Project Summary Record Maintenance
+pjfiscal.maint,Project Fiscal Record Maintenance
+tkfiscal.maint,Task Fiscal Record Maintenance
+:,:
+:,:
+:,:
+:,:
+:,:
+:,:
+pjsum.list,Project Summary Record List
+pjfiscal.list,Project Fiscal Record List
+tkfiscal.list,Task Fiscal Record List
+pj.transaction,Transaction Processing Menu
+pj.time.entry,Employee Time Card Entry
+pj.post.time,Post Time Cards
+:,:
+billing.ledger,Project Billing Ledger
+pj.blbrowse,Invoice Entry and Adjustment
+pj.billst,Print Billing Register
+pj.fnlzbl,Project Billing Update
+pj.invprint,Print Invoices
+:,:
+pj.rverpr,Revenue and Earnings Worksheet
+po,PO Purchase Orders
+po.log,Log On/Off
+po.maintenance,File Maintenance Menu
+po.system,System Management Menu
+rcpt.anal.inq,Receipt Analysis Statistics
+purch.anal.inq,Purchase Analysis by Category
+po.header.inq,Purchase Order Inquiry
+po.line.inq,Purchase Order Lines
+receipt.inq,Receipt Inquiry
+rcpt.line.inq,Receipt Lines
+recon.inq,Reconciled Receipt Lines
+blanket.po.inq,Blanket Purchase Order Inquiry
+blank.line.inq,Blanket Purchase Order Lines
+requis.inq,Requisition Inquiry
+req.line.inq,Requisition Lines
+item.vend.inf,Item Vendor Information
+item.vend.spec,Item Vendor Special Description
+po.vend.inq,PO by Vendor Inquiry
+po.arc.inq,PO Archive Inquiry
+po.line.arc,PO Line Archive Inquiry
+fax-audit,View FAX Audit File
+poref.inq,PO Inquiry by Reference
+po.maintenance,File Maintenance Menu
+itemvend.maint,Item Vendor Maintenance
+itemvend.audit,Item Vendor Audit Trail
+po-type.maint,Receipt-Type Maintenance
+po-add.maint,Additional Charge Maintenance
+po.ctrl.maint,Control-File Maintenance
+po-buyer,Buyer Maintenance
+vmimaint,VMI Vendor Maintenance
+req-auto-ctrl,Req Auto-Gen Control Maintenance
+vendcert,Vendor Certification
+itemvend.list,Item Vendor List
+po-type.list,Receipt-Type List
+po-add.list,Additional Charge List
+po.ctrl.list,Control-File List
+po.audits,Audit Trails (All Others)
+po-buyer-list,Buyer List
+po.req.list,Requisition List
+po.req.item,Requisition By Item
+purch.report,Purchase Order Report
+blanket.report,Blanket P/O Report
+sched.receipts,Scheduled Receipts Report
+receipt.report,Receipts Report
+analysis.rpt,Receipt Analysis Report
+reconc.report,Receipt Reconciliation Report
+vend.analysis,Vendor Performance Analysis
+exec.dan,price history report
+poreqliu,Requisition List by Userid
+chgprt,Change printer form id
+blank,:
+blank,:
+runview,View Report Output From a File
+po.system,System Management Menu
+po.stack.log,Stackable Log On/Off
+po.req.convert,Requisition Conversion
+po.purge,Purchase Order Purge
+receipt.purge,Receipt Purge
+poreq.purge,Requisition Purge
+analysis.reset,Receipt Analysis Reset
+incr.po.prd,Increment Year/Period
+po.purges,PO Purge without characters
+po-create,Create PO from Purged PO
+inact-items,Inactivate Item Numbers
+switch.buyer,Switch Buyer Codes
+po.req.entry,Requisition Entry
+po.entry,Purchase Order Entry
+blanket.entry,Blanket P/O Entry
+release.entry,Blanket P/O Release
+form.alignment,Form Alignment
+purchase.order,Print Purchase Orders
+receipt.entry,Receipt Entry
+reconc.entry,Receipt Reconciliation
+close.receipts,Close Receipts
+po.closrrc,Close All Reconciled Receipts
+polab,Purchasing vendor Labels
+wopoinq,Work Order/PO Maintenance
+unprtdpo,Unprtd/Unfaxed Blankets & Releases
+vmi.receipt,VMI Receipt Entry
+mvcons,VMI Move Inventory
+vend-ship-rcpt,Vendor Portal Shipment Receipt
+po.req.audit,Requisition Audit Trail
+purch.audit,Purchase Order Audit Trail
+blanket.audit,Blanket P/O Audit Trail
+release.audit,Blanket P/O Release Audit Trail
+receipt.audit,Receipt Audit Trail
+rcpt.item.jrnl,Receipt Item Journal
+close.rcpt.aud,Closed Receipts Audit Trail
+recpo,Compare Receipt & PO FOB-vend-amt
+blank,:
+blank,:
+blank,:
+blktupd,Update WO#/Oper Seq on Blanket PO
+poline-wo-fix,PO Line WO Fix
+portal-wo-move,Portal WO Move
+pt,PT Productivity Tools
+pt.mfgoper,Manufacturing Operations
+wo-data.ext,Work Order Data FTP Extract
+inv.ext,Inventory Usage/Turns Extract
+crprpt,Capacity Planning Report
+pt.mfgoper,Manufacturing Operations
+nlabor,Labor Recording
+homesweethome,Home Sweet Home Labor Entry
+order.ink,On-line Schedule Order Maint.
+labr.quality,Labor Reporting w/ Quality
+move.tag,Print WIP Item Labels
+blank,:
+Param.maint,Parameter Maintenance
+msds.maint,MSDS Maintenance
+param.xfer,Transfer Parameters
+param.display,Display Parameters Control Table
+emp.maint,Employee Maintenance for MFG
+emp.inq.mfg,Employee Inquiry for MFG
+audit.labor,Labor Recording Audit Inq/Maint
+chngdev.maint,Change Deviation Maintenance
+woanalys,Work Order Analysis
+wctype.rpt,Work Center Type Codes Report
+ppap.ship,Release PPAP Item on PPS to Ship
+wo-upd,Work Order Update
+employee.list,Employee List
+newemp.active,Employee Productivity Report
+product.rpt,Manufacturing Productivity Report
+downtime.rpt,Manufacturing Downtime/Indirect Rp
+inspection.rpt,Inspection Labor Detail Report
+dtl.quality,Detailed Quality Report
+qual.report,Quality Report
+closewo,Closed Work Order Report
+rout-prt,Work Order Analysis Report
+insp.prod,Inspector Productivity Report
+auditor.prod,Auditor Productivity Report
+defect.summ,Defect Summary Report
+blank,:
+fcinq,Forecast Inquiry
+ar-mrkt,Marketing Customer Maintenance
+sbu-maint,Customer SBU Maintenance
+terr.maint,Territory Maintenance
+slsrep.maint,Sales Rep Maintenance
+program,Sales Program Maintenance
+agency,Agency Maintenance
+user-web,Web User Defined Fields Maint.
+spec-sheet,Web Spec Sheet File Maintenance
+fc.export,Forecast Export
+fc.import,Forecast Import
+fcrpt,Forecast Report
+gainloss,Forecast Gain / Loss Report
+fcsls,Forecast vs Sales Report
+terr.list,Territory List
+slsrep.list,Sales Rep List
+sburpt,Customer SBU List
+inqprog,Sales Program Inquiry
+agencylst,Agency Listing
+custclas,Customer Classification
+progitem,Sales Program by Item Listing
+repsales,Split-Account Sales Report
+py,Payroll
+py.overview,Overview Menu
+py.log,Log On/Off
+py.maintenance,File Maintenance Menu
+py.transaction,Transaction Processing
+py.report,Management Reporting Menu
+py.inquiry,Inquiry Menu
+py.system,System Management Menu
+py.technical,Technical Documentation Menu
+py.exec,Executive Reporter Menu
+help,How To Get Help
+help.inq,Help Choices
+browse.zoom,Browse/Zoom Procedures
+menu.inq,Display Available Menus
+quit,Quit from PROGRESS. End of session
+py.exec,Executive Reporter Menu
+py.inquiry,Inquiry Menu
+emp.inq,Employee Profile Inquiry
+py.empdinq,Employee Wage Inquiry
+py.emp-dinq,Employee Wages
+py.adjinq,Adjustment Inquiry
+tax.inq,Tax Table Inquiry
+bank.inq,Bank Master Inquiry
+union.inq,Union Master Inquiry
+auto.inq,Automatic Deposit Inquiry
+py.maintenance,File Maintenance Menu
+py.empsmnt,Employee Maintenance
+py.emps-a,Employee Audit Trail
+py.empdmnt,Employee Wage Maintenance
+py.emp-da,Employee Wage Audit Trail
+py.deduct,Employee Adjustment Maintenance
+py.acrlmnt,Employee Accrual Maintenance
+py.accma,Employee Accrual Audit Trail
+py.autodp,Automatic Deposit Maintenance
+py.bank.maint,Bank Maintenance
+py.dedmnt,Adjustment Code Maintenance
+py.unonmnt,Union Code Maintenance
+py.taxidmnt,Tax Authority Maintenance
+py.txtblmnt,Tax Table Maintenance
+py.glmaint1,Distribution Maintenance
+py.ctrlmnt,Control-File Maintenance
+py.emp-sr,Employee Master List
+py.emp-dr,Employee Wage List
+py.deductr,Recurring Adjustment List
+py.accmr,Employee Accrual List
+py.autodpr,Automatic Deposit List
+py.banklst,Bank List
+py.adjustr,Adjustment Code Master List
+py.uncodr,Union Code Master List
+py.taxidr,Tax Authority Master List
+py.txtblr,Tax Table Master List
+py.pyaudit,Payroll Audit Trail (All Others)
+py.ctrlr,Payroll Control File List
+blank,:
+py.empglr,Employee Distribution G/L Report
+py.overview,Overview Menu
+py.sysover,Payroll System Overview
+py.hilight,Payroll Highlights
+py.proced,Payroll Procedural Flow
+py.concept,Payroll System Concepts
+py.convers,Payroll Conversion
+py.report,Management Reporting Menu
+py.ratytdr,Pay Rates and YTD Hours Report
+py.empbenr,Employee Benefit Report
+py.chkhstr,Employee Check History Report
+py.emprevr,Employee Review Report
+py.unempr,Unemployment Contributions Report
+py.dayeffr,Daily Efficiency Report
+py.lbrdstr,Labor Distribution Report
+form.alignment,Form Alignment
+py.lablr,Labels for Employees
+py.mischkr,Missing Check Numbers Report
+vacimp,vacation accrual import
+vacinp,Vacation input screen
+vaclrt,vacation accrual liability report
+vacart,vacation accrual report
+py.run,Payroll Run Menu
+py.param,Set Parameters for Payroll Run
+py.sumhrs,Post Summarized Hours Worked
+py.manvd,Post Manual and Void Checks
+py.grostax,Payroll Calculations
+py.ovrid,Override Calculations
+py.chkprf,Check Proof
+py.chkaud,Check File Audit Trail
+py.dedregr,Adjustment Register
+py.checks,Payroll Checks
+py.chkregr,Payroll Check Register
+py.bnkltr,Bank Letter for Auto Deposit
+py.mngsumr,Management Summary Report
+py.closem,Close Payroll Run
+py.jrnlr,Payroll Journal
+py.system,System Management Menu
+py.loginrp,Stackable Login
+py.interba,Payroll to G/L Interface
+py.distrba,Payroll Distribution Purge
+py.incrprd,Payroll Increment Year/Period
+py.prgchk,Check Numbers Purge
+py.prghst,Purge History Files
+py.prgtcrd,Purge Time Cards
+py.qtr,*** QUARTERLY FUNCTIONS TO RUN ***
+py.fed941,Federal Tax Return 941 Information
+py.st941a,Quarterly 941-A Form
+py.unempr,Unemployment Contributions Report
+py.zqtd,Zero Employee QTD Accruals
+py.yearly,*** YEARLY FUNCTIONS TO RUN ***
+py.w2r,W2 Forms
+py.drptrm,Drop All Terminated Employees
+py.zytd,Zero Employee YTD Accruals
+py.technical,Technical Documentation Menu
+py.files,File Layouts
+py.source,Source Module
+py.transaction,Transaction Processing
+py.tmcrd,Post Time Cards
+py.tmcrda,Time Card Audit Trail
+py.otadj,Post One Time Adjustments to Pay
+py.otadj-a,One Time Adjustments Audit Trail
+py.run,Payroll Run Menu
+py.terminat,Set Termination Date for Employee
+py.maingl,One-time Distribution G/L Codes
+py.tmcrdr,Time Card List
+py.hrvarr,Hours Variance Report
+py.chkrec,Cashed Check Entry
+py.chkreca,Cashed Check Audit Trail
+blank,:
+py.empglr1,One-Time Distribution Report
+sm,S.M.A.R.T.S.tm Main Menu
+smqmm,SMARTS Query and Mail Merge Menu
+blank,:
+smsan,SMARTS Sales Analysis Module
+blank,:
+blank,:
+blank,:
+blank,:
+sm.inquiry,SMARTS Inquiry Menu
+smadmin,SMARTS Administration
+blank,:
+smbudget,SMARTS Budget and Forecasting Menu
+bud_maint,Budget/Forecast Entry and Maint.
+blank,:
+Sa_Gen_Query,Sales Analysis General Query
+Per_Yr_Close,Period Set Year Close
+blank,:
+smdist,SMARTS Distributed Database Menu
+sminq,SMARTS Inquiry Menu
+smmaint,SMARTS Maintenance Menu
+smqmm,SMARTS Query and Mail Merge Menu
+Power_Query,SMARTS Powerful Query & Mail Merge
+blank,:
+Stored_Query_M,Stored Query Maintenance
+blank,:
+Word_Processor,Mail Merge Word Processor
+Mail_Merge_Lis,Mail Merge File List
+blank,:
+Stored_Query_L,Stored Query Master List
+blank,:
+Mail_Merge_Del,Mail Merge Deletion
+blank,:
+Mail_Merge_Eup,Mail Merge Event Update
+blank,:
+Dly_Bch_Mail_M,Daily Batch Mail Merge
+blank,:
+Quit,Quit from PROGRESS. End of session
+smsamaint,Sales Analysis Maintenance Menu
+smsan,SMARTS Sales Analysis Module
+smbudget,SMARTS Budget and Forecasting Menu
+blank,:
+smsarpt,Sales Analysis Reporting Menu
+smsarpt,Sales Analysis Reporting Menu
+Slsmn_Prd_Rpt,Salesman Report by Product
+blank,:
+Slsmn_Ter_Rpt,Salesman Report by Territory
+blank,:
+Prd_Geo_Rpt,Product Line Report by Territory
+blank,:
+Geo_Area_Rpt,Geographical Area Report
+blank,:
+Reg_Prd_Rpt,Region Report by Product Line
+blank,:
+Off_Prd_Rpt,Office Report by Product Line
+blank,:
+Ter_Prd_Rpt,Territory Report by Product Line
+Prd_Source_Rpt,Product Sales by Company Source
+blank,:
+Reg_Source_Rpt,Region Sales by Company Source
+blank,:
+Co_Src_Summary,Company Source Summary Report
+blank,:
+Quit,Quit from PROGRESS. End of session
+smsyspre,SMARTS System Prerequisites
+smtrans,SMARTS Transaction Menu
+blank,:
+stacker.maint,Job Stacker Maintenance
+stacker,Job Stacker Execution
+demon,Demon Inquiry
+stacker.list,Job Stacker List
+titan,TITAN Master Menu
+gl,GL General Ledger
+ar,AR Accounts Receivable
+ap,AP Accounts Payable
+blank,:
+in,IN Inventory Management
+po,PO Purchase Orders
+op,OP Sales Order Processing
+blank,:
+blank,:
+bom,BOM Bill of Materials and Routing
+blank,:
+pt,PT Productivity Tools
+blank,:
+blank,:
+tu,Titan Utilities
+tu.overview,Overview Menu
+blank,:
+tu.user,User Tools Menu
+tu.sysadmin,System Administration Menu
+tu.development,Development Tools Menu
+fcrpt,Forecast Report
+tu.technical,Current Release Technical Notes
+blank,:
+tu.dds,DDS utilities
+exit,Exit to Operating System
+quit,Quit from PROGRESS. End of session
+opt.code.maint,Option Code Maintenance
+tu.database,File & Field Tools Menu...
+dictionary,PROGRESS Dictionary
+update.files,Update Dictionary Extensions
+file.maint,File Extensions Maintenance
+browse.maker,Browse Maker
+match.maker,Match Maker
+rel.maint,File Relationship Maintenance
+fields.maker,Fields Maker
+generate.sizer,Generate Database Sizing Programs
+file.caps,Set File & Field Caps to Standard
+file.layouts,File Layouts List
+field.alert,Field Definition Alert
+db.schema,Data Base Schema Analysis
+quick.ref,Quick PROGRESS Dictionary Query
+where.used,Single Where Used BOM Inquiry
+db.plan.entry,Database Size Planner
+db.plan.print,Print Database Plan
+execute.sizer,Execute Database Sizer
+tu.dds,DDS utilities
+menudump,Menu Dump Program
+m-tagmemo,DDS tag memo Maint.
+i-tagmemo,Tag Memo Inquiry
+s-tagmemo,Tag Memo Summary Inquiry
+p-tagmemo,Tag Memo Print - General
+m-tag.test,Tag Memo File test
+locked,Identify User Lock from Port
+logon,TITAN Logon
+tu.deployment,Deployment Tools Menu...
+deploy.guide,System Deployment Notes
+transfer,Create Transfer of Application
+apply,:Apply Transfer of Application
+site.dump,Dump Site-Specific Data
+site.load,Load Site-Specific Data
+menu.dump,Incremental Menu Dump/Load
+file.dump,Dump - Load File
+tu.development,Development Tools Menu
+tu.guide,Development Guidelines Menu...
+blank,:
+menu.maint,Menu & Function Maintenance
+blank,:
+tu.database,File & Field Tools Menu...
+tu.source,Source Tools Menu...
+tu.xreference,Cross Reference Tools Menu...
+tu.documentati,Documentation Tools Menu...
+tu.macros,Development Macros Menu...
+tu.deployment,Deployment Tools Menu...
+blank,:
+pro.help,PROGRESS Help Menu...
+replace,String Search & Replace
+test,Test Program (Not on Menu)
+lifeline,LifeLine (kermit)
+test,Test Program (Not on Menu)
+blank,:
+blank,:
+menu.list,Menu & Function List
+function.inq,Titan Function Inquiry
+blank,:
+blank,:
+blank,:
+blank,:
+blank,:
+blank,:
+blank,:
+blank,:
+tu.documentati,Documentation Tools Menu...
+fieldh.maint,Field Help Maintenance
+doc.make,Print Documentation
+content,Print Table of Contents
+copy.help,Copy Field Level Help
+doc.diagnostic,Documentation Diagnostics
+doc.fields,Field Descriptions With Source
+field.list,Field Help List
+tu.features,T/U Features
+tu.guide,Development Guidelines Menu...
+concepts,General Concepts
+dev.standard,Application Development Standards
+prototype.dev,Prototype Development
+custom,Customizing Applications
+tu.hot,Hot Key Function Menu...
+file.browse,Browse File
+file.query,Alpha Browse
+file.list,Print File Listing
+file.entry,Create New Record
+menu,"Pull Menu, Select and Return"
+on-line.help,Show Documentation
+report.driver,Report & Audit Drivers
+exec.driver,Executive Report Driver
+stackable.exec,Stackable Executive Rpt Driver
+modify.help,Modify Field Level Help
+create.help,Create Field Level Help
+menu.inq,Display Available Menus
+form.alignment,Form Alignment
+field.inq,Display Help-frame Definition
+help.inq,Help Choices
+tag.memo,Attach Memo
+field.inquiry,Field Inquiry
+file.inquiry,File Extensions Browse
+show.logins,Show Current Logins
+refresh,Refresh Screen Image
+refresh,Refresh Screen Image
+srvr-vars-mnt,Server Vars Maintenance
+refer-ctrl-mnt,Refer-Ctrl Maintenance
+wo-comp-tran-s,WO Component Transaction Status
+tu.macros,Development Macros Menu...
+simple.macro,Simple File Maintenance Macro
+lookup.macro,Lookup Table Maintenance Macro
+maint.macro,File Maintenance Macro
+maint2.macro,Two-level Maintenance Macro
+header.macro,Transaction Header/Detail Macro
+report.macro,Report Macro
+audit.macro,Audit Macro
+parent-child.m,Parent / Child Audit Macro
+browse.macro,Browse Macro (Indexed Alpha/1 key)
+browse1.macro,Browse Macro (Non-indexed Alpha)
+browse2.macro,Browse Macro (Indexed Alpha/N-key)
+browse3.macro,Browse Macro (Non-indexed/N-key)
+browse4.macro,Browse Macro (N-key/No Alpha Sort)
+browse5.macro,Enhanced Browse (Indx Alpha/N-key)
+verify.macro,Verify & Balance Macro
+driver.macro,Report Front-end Macro
+params.macro,Report Parameters Macro
+dumpload.macro,Dump / Load Macro
+zap.macro,File Zapper Macro
+login.macro,Login Macro
+slogin.macro,Stackable Login Macro
+tu.mis.brian,Brian's Menu
+tu.mis.diane,Diane's Menu
+tu.mis.tracy,Tracy's Menu
+tu.mis.ben,Ben's Menu
+tu.mis.ben,Ben's Menu
+undelpo,Undelete PO
+inv-ref,Invoice Customer Ref
+tu.mis.brian,Brian's Menu
+expire.pass,Password Expiration Maintenance
+fix-tot-ar-amt,Fix CJ Total-ar-amt
+cr-wo-oper,Create Wo-operation (None Exist)
+fixordlnref,Fix Order Line References from 862
+invcr.exp,Print/Export Invoice Line Info
+tu.mis.diane,Diane's Menu
+imp-carvel,Import Carvel Item Numbers
+check-numbers,Update Carvel Check Numbers
+blank,:
+maru.inv,ADJ-TRANS Audit File
+upd.cust.add,Update Customer Address on Orders
+joep.woyield,Work Order Yield with Price
+cust-oper,Customer WO Operations
+cust-inv,Customer Invoices for Sharon
+send-850,Send 850 to Sericol
+vend.bankcode,Vendor Bank Code Update
+import.arby,Import Arbys Location to A1011CC
+invprntno-fix,Fix Mexico Invoice Numbers
+refer-ctrl-mnt,Refer-Ctrl Maintenance
+autoship.ecat,Auto Ship eCat Orders
+blank,:
+laser.bc.test,Laser Printer Barcode Test
+mis.asset-exp,Asset Information Export
+skeleton.lbl,Barcode Label Skeleton Test
+pack-12,Package Label from W/O (1x2)
+is.password,IS Password Maintenance
+sub-batch-fix,Add Sub-Batch to Issued Ink
+:,:
+delzero,Delete Zero Requisition Lines
+vlbl,Print Stock and Ink Vendor Labels
+flip-vendor,One Time Vendor Conversion
+delphi-inv,Extract Customer Shipments
+del-cust-pric,Delete Customer Pricing Blank Item
+honda-on,ORDLN-REF for Item Numbers
+abtest,Auto Billing Test
+genlabel,Generic Label
+fixar,Auto Billing - Sls Jrnl + AR fix
+phyx,Physical Inventory Update - Fix
+tu.mis.tracy,Tracy's Menu
+user.report,User Security Report
+funct.report,Function Security Report
+find-user,Find Titan User
+specuser,Specific User Security Listing
+runview,View Report Output From a File
+py,Payroll
+fa,Fixed Assets
+pj,Project Costing
+cs,Counter Sales
+jit,JIT/ Repetitive Manufacturing
+cfm,Continuous Flow Manufacturing
+tu,Titan Utilities
+sm,S.M.A.R.T.S.tm Main Menu
+start.results,start up results
+quote.expiry,Quotation By Expiry Date
+quote.business,Lost/Gain Business Report
+item.jrnl,Item Journal
+tu.overview,Overview Menu
+tu.features,T/U Features
+titan.req,TITAN Disk Requirements
+guide,Before You Begin
+install,Installation Instructions
+security,Security System
+entity,Entity Concepts
+blank,:
+help,How To Get Help
+keyboard,Keyboard Usage
+log,How to Log On/Off
+data.entry,How to Enter Data
+report,How to Execute a Report
+inquiry,How to Run an Inquiry
+tu.listsource,T/U Source Modules & Other Goodies
+stack.log,How to Use Stackable Log On/Off
+gl.interface,How to Run the GL Interface
+distr.purge,How to Run the Distribution Purge
+prd.increment,How to Increment Fiscal Yr/Prd
+audit.trail,How to Run an Audit Trail
+blank,:
+startup.titan,Starting Up Titan
+user.maint,User Maintenance
+security.maint,Function Security Maintenance
+blank,:
+is.usermaint,Extended User Maintenance
+is.function,Extended Function Security
+is.passthru,Pass-Through Login Maintenance
+blank,:
+specuser,Specific User Security Listing
+funct.report,Function Security Report
+find-user,Find Titan User
+blank,:
+password.maint,Change My Titan Password
+change.printer,User Default Printer Maintenance
+tu.source,Source Tools Menu...
+editor,PROGRESS Editor
+os.editor,Operating System Editor
+xref.maker,Xref Maker For Files & Procedures
+compiler,Compiler For All Applications
+compiler.funct,Function Compiler
+compiler.file,Compile By Referenced File
+load.doty,Load Parameters From A .y File
+blank2,:
+version.maint,Product Version Maintenance
+bug.entry,Bug Entry
+bug.assign,Assignment Updates
+bug.out,Check Source Programs Out
+bug.in,Check Corrected Programs In
+bug.resolve,Programmer Resolution of Bug
+bug.lifeline,Prepare A LifeLine Diskette
+bug.close,Final Edit & Closing
+blank2,:
+macro.exp,Macro Explosion
+batch.macro,Batch Macro Explosion
+mass.compile,Mass Compile for All Databases
+compile,Compile One Program
+blank2,:
+blank2,:
+bugs.log,Open Bug Logsheet
+bug.report,Detailed Bug Report
+tu.sysadmin,System Administration Menu
+startup.titan,Starting Up Titan
+user.maint,User Maintenance
+security.maint,Function Security Maintenance
+printer.maint,Printer Maintenance
+printcap.maint,Printer Capabilities Maintenance
+funct.sec,Change/Delete Users from Functions
+entity.maint,Accounting Entity Maintenance
+global.maint,Global Record Maintenance
+number.maint,File Control Number Maintenance
+db.plan.entry,Database Size Planner
+execute.sizer,Execute Database Sizer
+file.dump,Dump - Load File
+entactiv,Entity Active/Division Maintenance
+entity.purge,Entity Purge
+file.dump,Dump - Load File
+file.zapper,Zap Records
+print.memo,Print Memo Tags
+user.list,User List
+security.list,Function Security List
+printer.list,Printer Definitions List
+user.report,User Security Report
+funct.report,Function Security Report
+estchg,Update Estimator User-id on Quotes
+entity.list,Accounting Entity List
+number.list,File Control Number List
+db.plan.print,Print Database Plan
+operator.log,Operator Log Audit Trail
+general.hash,General Hash Totals Report
+general.audit,General Audit Trail Printing
+blank,:
+tu.hot,Hot Key Function Menu...
+tu.user,User Tools Menu
+help.maint,Help Key Maintenance
+blank,:
+exec.rpt,Executive Reporter
+execdr.hlp,Executive Report Driver Help
+blank,:
+stacker.maint,Job Stacker Maintenance
+stacker,Job Stacker Execution
+demon,Demon Inquiry
+blank,:
+calculator,Calculator
+help.list,Help Key List
+blank,:
+blank,:
+blank,:
+blank,:
+stacker.list,Job Stacker List
+tu.xreference,Cross Reference Tools Menu...
+xref.maker,Xref Maker For Files & Procedures
+file.apps,Create Where-Used File List
+impact,Impact Analysis
+blank3,:
+field.xref,Files By Field Xref List
+parent.xref,Children By Parent Xref List
+child.xref,Parents By Child Xref List
+functions.xref,Where-used list for Procedures
+xref.list,Where-used list for Files & Fields
+wh.log,Log On/Off
+help,How To Get Help
+help.inq,Help Choices
+browse.zoom,Browse/Zoom Procedures
+menu.inq,Display Available Menus
+quit,Quit from PROGRESS. End of session
+wh.ctrledt,Control-File Maintenance
+unpick,Return Picked Items to Inventory
+blank,:
+stock.transfer,One Step Stock Whs Transfer
+req.whs.trans,Request Warehouse Transfer
+alloc.whs.tran,Allocate Warehouse Transfer
+blank,:
