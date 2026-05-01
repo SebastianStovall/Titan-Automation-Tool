@@ -1,18 +1,8 @@
 """
-automation_template.py - Template for new Titan report automations.
+run_variance_exception_report.py - Automate the Variance Exception Report.
 
-Claude Code copies this file when generating a new automation. The shape
-of every generated automation matches this template exactly:
-
-  1. Open session (always the same)
-  2. Jump to function code (filled in by Claude from titan_functions.csv)
-  3. Build the field-values list (filled in by Claude from screenshot)
-  4. Call fill_form() and submit_proceed() (always the same)
-  5. Quit cleanly (always the same)
-
-Generated automations live in the automations/ folder.
-
-DO NOT modify titan_session.py or titan_test.py.
+Generated from automation_template.py. Do not edit titan_session.py or
+titan_test.py.
 """
 
 import sys
@@ -37,38 +27,83 @@ from titan_session import (
 
 # ---------------------------------------------------------------------------
 # REPORT IDENTITY
-# Replace these with values for the report being automated.
 # ---------------------------------------------------------------------------
 
-REPORT_NAME = "<human-readable report name, e.g. 'Monthly Account Status Report'>"
-FUNCTION_CODE = "<function code from titan_functions.csv, e.g. 'g223'>"
+REPORT_NAME = "Variance Exception Report"
+FUNCTION_CODE = "except.report"
 
 
 # ---------------------------------------------------------------------------
 # FORM FIELDS
-# List of (label, value) tuples representing the parameter form, in the
-# order fields are visited starting from the cursor's initial position.
-#
-# - label: a short string for logs ("Entity Code Range From"). Pick a
-#   label that matches what's on screen, so failures are easy to diagnose.
-# - value: the value to type. Use None to accept whatever default is
-#   currently displayed in the field.
-#
-# fill_form() detects the Proceed dialog automatically, so you don't
-# need to count fields exactly. If your list is shorter than the form,
-# fill_form() sends Enters to accept defaults for the rest. If your
-# list happens to be longer, that's fine too - fill_form() stops as
-# soon as the Proceed dialog appears.
 # ---------------------------------------------------------------------------
 
 FIELDS = [
-    # ("As-of date", None),
-    # ("Parameter Output", None),
-    # ("Report Output", None),
-    # ("Memo", None),
-    # ("Entity Code Range From", "S0110M"),
-    # ("Entity Code Range To", "S0110M"),
-    # ...
+    # Header section
+    ("As-of date", None),
+    ("Parameter Output", "e-claude"),
+    ("Report Output", "e-claude"),
+    ("Memo", None),
+
+    # Filters
+    ("Variance Type (M/L/P/*)", None),
+    ("Starting Status (From)", None),
+    ("Starting Status (to)", None),
+    ("Starting Entity (From)", None),
+    ("Starting Entity (to)", None),
+    ("Starting WO# (From)", None),
+    ("Starting WO# (to)", None),
+    ("Exception %", None),
+
+    # Work-orders grid (7 columns x 7 rows = 49 cells)
+    ("Work-order 1", "595192"),
+    ("Work-order 2", None),
+    ("Work-order 3", None),
+    ("Work-order 4", None),
+    ("Work-order 5", None),
+    ("Work-order 6", None),
+    ("Work-order 7", None),
+    ("Work-order 8", None),
+    ("Work-order 9", None),
+    ("Work-order 10", None),
+    ("Work-order 11", None),
+    ("Work-order 12", None),
+    ("Work-order 13", None),
+    ("Work-order 14", None),
+    ("Work-order 15", None),
+    ("Work-order 16", None),
+    ("Work-order 17", None),
+    ("Work-order 18", None),
+    ("Work-order 19", None),
+    ("Work-order 20", None),
+    ("Work-order 21", None),
+    ("Work-order 22", None),
+    ("Work-order 23", None),
+    ("Work-order 24", None),
+    ("Work-order 25", None),
+    ("Work-order 26", None),
+    ("Work-order 27", None),
+    ("Work-order 28", None),
+    ("Work-order 29", None),
+    ("Work-order 30", None),
+    ("Work-order 31", None),
+    ("Work-order 32", None),
+    ("Work-order 33", None),
+    ("Work-order 34", None),
+    ("Work-order 35", None),
+    ("Work-order 36", None),
+    ("Work-order 37", None),
+    ("Work-order 38", None),
+    ("Work-order 39", None),
+    ("Work-order 40", None),
+    ("Work-order 41", None),
+    ("Work-order 42", None),
+    ("Work-order 43", None),
+    ("Work-order 44", None),
+    ("Work-order 45", None),
+    ("Work-order 46", None),
+    ("Work-order 47", None),
+    ("Work-order 48", None),
+    ("Work-order 49", None),
 ]
 
 

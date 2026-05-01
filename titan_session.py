@@ -45,10 +45,19 @@ MENU_MARKER = b"G007-DEV"
 # Marker that appears when a report's parameter form is complete and
 # Titan is asking the user whether to proceed. Detecting this is how
 # we know we're done filling the form and ready to submit.
-PROCEED_MARKER = b"Do you wish to:"
+#
+# The full text on screen is:
+#   "Do you wish to:  [P]roceed, [S]tack, [B]ackground, or [C]ancel"
+# We match on "Do you wish to" without the colon because:
+#   - Progress sometimes inserts escape sequences mid-string
+#   - The colon may be rendered slightly later than the preceding text
+#     (cursor positioning artifact), so checking before it appears
+#     would miss the dialog
+PROCEED_MARKER = b"Do you wish to"
 
 # Safety cap on how many Enters we'll send while looking for the Proceed
-# dialog. Far above any real form's field count.
+# dialog. Set generously above the largest known form (some reports have
+# 60+ enterable fields).
 MAX_FORM_ENTERS = 100
 
 
@@ -268,36 +277,35 @@ def open_titan_session(host=None, user=None, password=None,
 # Navigation helpers
 # ---------------------------------------------------------------------------
 
-def jump_to_function(session, function_code):
+def jump_to_function(session, function_code, settle=1.0):
     """
     Jump directly to a Titan screen by typing its function code at the
     current Selection: prompt and pressing Enter.
+
+    After typing, waits `settle` seconds for the destination screen to
+    finish rendering before returning. This is important because the
+    cursor may not be positioned on the first field until rendering
+    completes - if the caller starts sending Enters before then, the
+    first Enter can be consumed by the rendering process rather than
+    advancing past field 1, causing every subsequent input to land one
+    cursor position too early.
     """
     send_text(session, function_code)
     send_key(session, KEY_ENTER)
+    time.sleep(settle)
 
 
 def fill_form(session, values, post_field_settle=0.3):
     """
     Fill a Titan report parameter form by sending field values one at a
-    time, watching for the Proceed dialog ("Do you wish to:") to appear.
+    time, watching for the Proceed dialog to appear.
 
     Stops when:
-      - All values have been sent AND the Proceed dialog has appeared, OR
-      - All values have been sent and we've sent up to MAX_FORM_ENTERS
-        empty Enters trying to reach the dialog, OR
-      - We've hit MAX_FORM_ENTERS total Enters with no dialog (safety cap).
+      - The Proceed dialog appears (success), OR
+      - We've hit MAX_FORM_ENTERS Enters total (safety cap).
 
     `values` is a list of (label, value) tuples. label is for printing /
-    debugging; value is None to accept the default. Example:
-
-        fill_form(session, [
-            ("As-of date", None),
-            ("Memo", "Please forward printout to issxs01"),
-            ("Entity Code Range From", "S0110M"),
-            ("Entity Code Range To", "S0110M"),
-            ...
-        ])
+    debugging; value is None to accept the default.
 
     Returns (proceed_seen: bool, total_enters_sent: int).
     """
@@ -314,18 +322,19 @@ def fill_form(session, values, post_field_settle=0.3):
         enters_sent += 1
         time.sleep(post_field_settle)
 
-        if check_for_marker(session, PROCEED_MARKER, drain_first=0.1):
+        if check_for_marker(session, PROCEED_MARKER, drain_first=0.3):
             print(f"  ** Proceed dialog appeared after {enters_sent} fields.")
             return (True, enters_sent)
 
         if enters_sent >= MAX_FORM_ENTERS:
             print(f"  ** Hit MAX_FORM_ENTERS ({MAX_FORM_ENTERS}) without Proceed dialog.")
+            _dump_buffer_for_diagnostics(session)
             return (False, enters_sent)
 
     # All user-supplied values sent. Keep pressing Enter to accept defaults
     # for any remaining fields until the Proceed dialog appears.
     while enters_sent < MAX_FORM_ENTERS:
-        if check_for_marker(session, PROCEED_MARKER, drain_first=0.3):
+        if check_for_marker(session, PROCEED_MARKER, drain_first=0.4):
             print(f"  ** Proceed dialog appeared after {enters_sent} fields.")
             return (True, enters_sent)
 
@@ -334,12 +343,27 @@ def fill_form(session, values, post_field_settle=0.3):
         enters_sent += 1
         time.sleep(post_field_settle)
 
-    # One last check after the cap.
-    if check_for_marker(session, PROCEED_MARKER, drain_first=0.3):
+    # Final check after the cap.
+    if check_for_marker(session, PROCEED_MARKER, drain_first=0.5):
+        print(f"  ** Proceed dialog appeared after {enters_sent} fields (just at cap).")
         return (True, enters_sent)
 
     print(f"  ** Hit MAX_FORM_ENTERS ({MAX_FORM_ENTERS}) without Proceed dialog.")
+    _dump_buffer_for_diagnostics(session)
     return (False, enters_sent)
+
+
+def _dump_buffer_for_diagnostics(session):
+    """
+    Print the last chunk of captured output when something goes wrong.
+    Helps diagnose what state the screen is actually in vs. what we expected.
+    """
+    # Drain a bit more in case bytes are still arriving.
+    drain_into_buffer(session, duration=0.5)
+    tail = session.buffer[-2000:]
+    print("\n  === Last ~2000 bytes captured (repr) ===")
+    print(f"  {tail!r}")
+    print("  === End diagnostics ===\n")
 
 
 def submit_proceed(session):
