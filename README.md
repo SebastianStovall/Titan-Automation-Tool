@@ -1,8 +1,7 @@
 # Titan Automation Tool
 
-A Python-based automation framework for running reports in Titan, Serigraph's
-legacy ERP application (Progress OpenEdge). It connects to the Titan test
-server over SSH, drives the character-based interface programmatically, fills
+A Python-based automation framework for running reports. It connects to the Titan ERP test
+server and drives the character-based interface programmatically, fills
 out report parameter forms, and submits them — eliminating the manual,
 repetitive work of pulling reports from Titan by hand.
 
