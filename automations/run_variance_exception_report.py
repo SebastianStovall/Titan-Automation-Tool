@@ -35,16 +35,23 @@ FUNCTION_CODE = "except.report"
 
 # ---------------------------------------------------------------------------
 # FORM FIELDS
+#
+# Cursor traversal walkthrough:
+#   Header box      :  4 stops  (As-of date, Parameter Output, Report Output, Memo)
+#   Filter rows     :  8 stops  (Variance Type; Status From/To; Entity From/To;
+#                                WO# From/To; Exception %)
+#   Work-orders grid: 49 stops  (7 columns x 7 rows)
+#   Total           : 61 stops
 # ---------------------------------------------------------------------------
 
 FIELDS = [
-    # Header section
+    # Header section (4 fields)
     ("As-of date", None),
     ("Parameter Output", "e-claude"),
     ("Report Output", "e-claude"),
     ("Memo", None),
 
-    # Filters
+    # Filter rows (8 fields)
     ("Variance Type (M/L/P/*)", None),
     ("Starting Status (From)", None),
     ("Starting Status (to)", None),
